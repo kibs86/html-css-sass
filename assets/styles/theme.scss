@@ -1,0 +1,22 @@
+$background-color: $paper-white;
+$font-color: $charcoal;
+$quote-background-color: $light-gray;
+$quote-border-radius: 10px;
+
+body {
+  background-color: $background-color;
+  color: $font-color;
+  font-size: $body-font-size;
+  line-height: $line-height;
+  margin: $body-margin;
+  max-width: $body-max-width;
+  padding: $padding;
+}
+
+.quote {
+  //background-color: darken($background-color, 20%);
+  background-color: shade($background-color, 20);
+  border-radius: $quote-border-radius;
+  font-size: $body-font-size * 1.5;
+  padding: $quote-padding;
+}
